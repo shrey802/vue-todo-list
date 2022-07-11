@@ -1,0 +1,13 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+h3{
+    padding-top: 40px;
+}
+.del{
+    margin-left: 10px;
+}
+ol > li{
+    margin: 20px;
+}
