@@ -1,5 +1,7 @@
 // const utask = document.querySelector(".texting");
-const app = Vue.createApp({
+const {createApp} = require('vue');
+const app = createApp({
+    el: '#app',
     data(){
         return {
             tasks: [],
@@ -29,4 +31,3 @@ const app = Vue.createApp({
         // }
     }
 })
-app.mount("#app");
